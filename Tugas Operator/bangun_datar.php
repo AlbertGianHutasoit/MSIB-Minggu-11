@@ -1,0 +1,74 @@
+<?php
+// Luas Bangun Datar Persegi
+$sp=4; //sisi persegi panjang
+$lp=$sp*$sp; //rumus luas persegi
+
+echo"Luas bangun datar persegi <br>
+Jika sisi = $sp<br>
+maka luas persegi = $lp <br>";
+
+echo"<br>============================<br>";
+
+
+// Luas Bangun Datar Persegi Panjang
+$ppp=11; //panjang persegi panjang
+$lpp=7; //lebar persegi panjang
+$l=$ppp*$lpp; //rumus luas persegi panjang
+
+echo"<br>Luas bangun datar persegi panjang <br>
+Jika panjang = $ppp dan lebar = $lpp <br>
+maka luas persegi panjang = $l <br>";
+
+echo"<br>============================<br>";
+
+// Luas Bangun Datar Segitiga
+$as=8; //alas segitiga
+$ts=4; //tinggi segitiga
+$ls=1/2*$as*$ts; //rumus luas segitiga
+
+echo"<br>Luas bangun datar segitiga <br>
+Jika alas = $as dan tinggi = $ts <br>
+maka luas segitiga = $ls <br>";
+
+echo"<br>============================<br>";
+
+// Luas Bangun Datar Jajar Genjang
+$aj=14; //alas jajar genjang
+$tj=5; //tinggi jajar genjang
+$lj=$aj*$tj; //rumus luas jajar genjang
+
+echo"<br>Luas bangun datar jajar genjang <br>
+Jika alas = $aj dan tinggi= $tj <br>
+maka luas jajar genjang = $lj <br>";
+
+echo"<br>============================<br>";
+
+// Luas Bangun Datar Belah Ketupat
+$d1=18; //diagonal 1 belah ketupat
+$d2=10; //diagonal 2 belah ketupat
+$lb=1/2*$d1*$d2; //rumus luas belah ketupat
+
+echo"<br>Luas bangun datar belah ketupat <br>
+Jika diagonal 1 = $d1 dan diagonal 2 = $d2 <br>
+maka luas belah ketupat = $lb <br>";
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>

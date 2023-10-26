@@ -11,7 +11,7 @@ $bmi = $beratbadan / ($tinggi_meter ** 2);
 //kategori BMI
 if ($bmi < 18.5) {
     $kategori = "Kurus";
-} elseif ($bmi >= 18.5 && $bmi < 24.9) {
+} elseif ($bmi >= 18.5 && $bmi <= 25) {
     $kategori = "Sedang";
 } else {
     $kategori = "Gemuk";

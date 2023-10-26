@@ -2,7 +2,7 @@
 
 $nilai = 80;
 
-switch (true) {
+switch ($nilai) {
     case ($nilai >= 90 && $nilai <= 100):
         $kategori = "A";
         break;

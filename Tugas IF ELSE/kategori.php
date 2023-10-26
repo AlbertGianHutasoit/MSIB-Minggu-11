@@ -1,6 +1,6 @@
 <?php
 //variabel 
-$nama = "Juki";
+$nama = "Jukiman";
 $tinggibadan = 167;
 $beratbadan = 63;
 
